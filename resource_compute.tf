@@ -32,12 +32,6 @@ resource "google_compute_instance" "vm_instance" {
     ssh-keys = "${var.gce_ssh_user}:${file(var.gce_ssh_pub_key_file)}"
   }
 
-  # service_account {
-  #   # Google recommends custom service accounts that have cloud-platform scope and permissions granted via IAM Roles.
-  #   email  = google_service_account.default.email
-  #   scopes = ["cloud-platform"]
-  # }
-
   allow_stopping_for_update = true
 }
 
