@@ -16,6 +16,10 @@ Introduction to cloud automation in Google Cloud
 
 ## Install Google Cloud SDK
 
+Google demo so the Google CLI is required for authentication:
+
+https://cloud.google.com/sdk/docs/install
+
 ## Install Terraform
 Terraform is a software used to automate cloud deployments.
 
